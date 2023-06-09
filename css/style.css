@@ -83,3 +83,36 @@
 .copyright small{
     font-size: 11px;
 }
+.section{
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 10px;
+}
+
+.heading-section{
+    text-align: center;
+}
+
+.heading-topic{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #032559;
+}
+
+.top{
+    height: 200px;
+    margin-bottom: 50px;
+    background: url("../img/top.jpg")
+    center bottom / cover no-repeat;
+}
+.col{
+    max-width: 300px;
+    margin: 0 auto 50px;
+}
+.col-image{
+    margin-bottom: 10px;
+}
+.col p{
+    margin-bottom: 0;
+}
