@@ -116,3 +116,16 @@
 .col p{
     margin-bottom: 0;
 }
+
+.price-table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+.price-table thead{
+    color: #fff;
+    background-color: #070707;
+}
+.price-table tbody th {
+    
+}
