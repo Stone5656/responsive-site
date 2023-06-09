@@ -1,0 +1,85 @@
+.header{
+    position: relative;
+    padding: 15px 0 0;
+    background-color: #fff;
+}
+
+.logo{
+    width: 140px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+.btn-burger{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 2;
+    display: block;
+    width: 44px;
+    height: 44px;
+    background: url("../img/burger.svg") center center / 35px 20px no-repeat;
+    cursor: pointer;
+}
+
+.nav-toggle:checked ~ .btn-burger{
+    background: url("../img/close.svg") center center / cover no-repeat;
+}
+
+.nav{
+    padding-top: 10px;
+    background: url(../img/nav_bg.png) center center;
+}
+
+.nav-list{
+    display: none;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.nav-list li{
+    margin: 0;
+    padding: 10px;
+}
+.nav-list a{
+    display: block;
+    color: #fff;
+}
+
+.nav-toggle:checked ~ .nav .nav-list{
+    display: block;
+}
+
+.footer {
+    padding: 40px 0 30px;
+    color: #032559;
+    text-align: center;
+    background: url("../img/footer_bg.png") center center / cover no-repeat;
+}
+.footer-logo {
+    margin-bottom: 10px;
+}
+.footer-address {
+    margin: 10px 0;
+}
+.footer-sns {
+    margin: 20px 0;
+    text-align: center;
+}
+.footer-sns a {
+    display: inline-block;
+    margin: 0 5px;
+}
+.footer-sns img {
+    vertical-align: middle;
+}
+
+.copyright{
+    margin: 0;
+}
+.copyright small{
+    font-size: 11px;
+}
